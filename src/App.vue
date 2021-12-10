@@ -3,6 +3,9 @@
     <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
+      <router-link to="/other">
+      <span style="margin-left:15px">Other</span>
+      </router-link>
     </div>
     <router-view/>
   </div>

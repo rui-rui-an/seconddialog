@@ -6,8 +6,10 @@ import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
 import BaseConfirmPop from '@/components/BaseConfirmPop.vue'
 import VmodelConfirmPop from '@/components/VmodelConfirmPop.vue'
+import SyncConfirmPop from '@/components/SyncConfirmPop.vue'
 Vue.component('ConfirmPop', BaseConfirmPop)
 Vue.component('VmodelConfirmPop', VmodelConfirmPop)
+Vue.component('SyncConfirmPop', SyncConfirmPop)
 Vue.use(ElementUI)
 
 Vue.config.productionTip = false
