@@ -1,5 +1,6 @@
 <template>
   <div class="ConfirmPop">
+    <!-- 特别注意这里的 el-dialog 绑定时，不要加.sync-->
     <el-dialog
       :visible="opendailog"
       top="25vh"
