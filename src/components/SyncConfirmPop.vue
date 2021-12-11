@@ -81,8 +81,6 @@ export default {
       if (this.$listeners.cancelSend) {
         this.$emit('cancelSend')
       } else {
-        console.log(111);
-        // 这样子的话，会调两次colseDialog事件,但是也没什么关系,之后再想一下把
         this.$emit('update:opendailog',false)
       }
     },
@@ -90,7 +88,6 @@ export default {
       this.$emit('confirmSend')
     },
     colseDialog () {
-      console.log(22222);
       this.$emit('update:opendailog', false)
     }
   }
